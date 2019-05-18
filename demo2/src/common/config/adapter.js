@@ -37,10 +37,10 @@ exports.model = {
   mysql: {
     handle: mysql,
     database: 'ehrms2',
-    prefix: 'think_',
+    prefix: '',
     encoding: 'utf8',
     host: '127.0.0.1',
-    port: '3360',
+    port: '3306',
     user: 'root',
     password: '!Qa109',
     dateStrings: true,
