@@ -36,13 +36,13 @@ exports.model = {
   },
   mysql: {
     handle: mysql,
-    database: '',
+    database: 'ehrms2',
     prefix: 'think_',
     encoding: 'utf8',
     host: '127.0.0.1',
-    port: '',
+    port: '3360',
     user: 'root',
-    password: 'root',
+    password: '!Qa109',
     dateStrings: true,
     acquireWaitTimeout: isDev ? 3000 : 0
   }
